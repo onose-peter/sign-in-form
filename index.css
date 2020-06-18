@@ -129,13 +129,9 @@ form .txt_field{
 }
 
 
-.pass{
-    cursor: pointer;
-    color: blue;
-}
-
-.pass:hover {
-    text-decoration: underline;
+.pass a{
+    color: rgba(0, 0, 255, 0.856);
+    text-decoration: none;
 }
 
 
@@ -337,6 +333,31 @@ galaxy s5 */
     }
 }
 @media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio:3) and (orientation : landscape) {
+    
+#footer{
+    position: relative;
+    bottom: -500px;
+}
+}
+
+
+/* samsung s8 */
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (orientation : portrait) {
+    
+    .center{
+        min-width: 19rem;
+        left: 54%;
+    }
+    .footer_content a {
+        padding: 0 1.2rem;
+    }
+    input[type = "submit"] {
+        position: relative;
+        right: 0px;
+    }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (orientation : landscape) {
     
 #footer{
     position: relative;

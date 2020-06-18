@@ -51,6 +51,7 @@ form .txt_field{
     border: none;
     background: none;
     outline: none;
+    color: rgb(76, 3, 119);
 }
 
 .txt_field{
@@ -104,7 +105,7 @@ form .txt_field{
 .txt_field input:valid ~ label
 {
     top: -5px;
-    color: black;
+    color: rgba(0, 0, 0, 0.342);
 }
 
 
@@ -381,10 +382,3 @@ galaxy s5 */
     
 }
 
-@media only screen and (min-width: 739px) and (max-width: 767px) {
-        
-#footer{
-    position: relative;
-    bottom: -500px;
-}
-}
